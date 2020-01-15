@@ -4,7 +4,7 @@ module.exports = {
     name: 'eval',
 	description: 'Get the song that is playing.',
 async	execute(message) {
-  const token = "NjAyMjg0MTA1MTU3MDUwMzc4.XbYF8A.kymwaDqJ14crjcsFeYi0uCv1Doo"
+  const token = "YOUR_TOKEN"
   const Client = require('../client/Client');
   const client = new Client();
     const args = message.content.slice(1).split(/ +/);
